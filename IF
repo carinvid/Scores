@@ -1,0 +1,27 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	//Scores
+        int score1 = 90;
+        int score2 = 100;
+        int score3 = 78;
+        int score4 = 80;
+        int score5 = 100;
+        double total = (score1 + score2 + score3 + score4 + score5)/5;
+        if( total<=60)
+            System.out.println("Your score is F " + total );
+
+        if (total >= 60 & total <70 )
+            System.out.println("Your score is D " + total );
+
+        if (total >= 70 & total <80)
+            System.out.println("Your score is C " + total );
+        if (total >= 80 & total <=90 )
+            System.out.println("Your score is B " + total );
+        if (total >= 90 & total <=100)
+            System.out.println("Your score is A " + total );
+
+        }
+    }
